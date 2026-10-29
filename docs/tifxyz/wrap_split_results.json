@@ -1,0 +1,162 @@
+{
+ "link_tol_unit": "native voxels (prediction scale 4)",
+ "note": "scripts/eval_wrap_split.py; tuned tile is where the tolerance was chosen, held-out tile is disjoint (x 7168-7680 vs 7680-8704)",
+ "tuned_tile": {
+  "tile_origin_native": [
+   16384,
+   7680,
+   7680
+  ],
+  "shape": [
+   768,
+   1024,
+   1024
+  ],
+  "results": [
+   {
+    "config": "plain M2 + plane",
+    "pages": 50,
+    "vertices": 382778,
+    "pages_ge_10k_vertices": 14,
+    "median_page_vertices": 4623,
+    "area_on_pages_over_2_wraps_pct": 16.778916238655302,
+    "wraps_per_slice_weighted": 1.3866236319420786,
+    "max_wraps_per_slice": 6.0641574498978965,
+    "on_surface_weighted": 0.7522375894121397,
+    "cross_wrap_weighted": 0.09278223931364916,
+    "shear_cos_p95_weighted": 0.34821841977012696
+   },
+   {
+    "config": "split tol 3 + plane",
+    "pages": 82,
+    "vertices": 530731,
+    "pages_ge_10k_vertices": 23,
+    "median_page_vertices": 3755,
+    "area_on_pages_over_2_wraps_pct": 0.0,
+    "wraps_per_slice_weighted": 0.8165459867348972,
+    "max_wraps_per_slice": 1.6812684355114689,
+    "on_surface_weighted": 0.9946470057336014,
+    "cross_wrap_weighted": 0.0037363560824598525,
+    "shear_cos_p95_weighted": 0.13642957042312098
+   },
+   {
+    "config": "split tol 2 + plane",
+    "pages": 98,
+    "vertices": 447519,
+    "pages_ge_10k_vertices": 14,
+    "median_page_vertices": 2540,
+    "area_on_pages_over_2_wraps_pct": 0.0,
+    "wraps_per_slice_weighted": 0.5640089456301861,
+    "max_wraps_per_slice": 1.2638295460250681,
+    "on_surface_weighted": 0.9953812016919952,
+    "cross_wrap_weighted": 0.0035194036454318143,
+    "shear_cos_p95_weighted": 0.11944745299236657
+   },
+   {
+    "config": "split tol 3 (multi-valued) + plane",
+    "pages": 63,
+    "vertices": 492733,
+    "pages_ge_10k_vertices": 22,
+    "median_page_vertices": 4725,
+    "area_on_pages_over_2_wraps_pct": 4.720609336090743,
+    "wraps_per_slice_weighted": 0.9785693516090034,
+    "max_wraps_per_slice": 3.3568125333636973,
+    "on_surface_weighted": 0.9182031647971619,
+    "cross_wrap_weighted": 0.029084717280961493,
+    "shear_cos_p95_weighted": 0.2140881974982705
+   },
+   {
+    "config": "split tol 3 + sheet",
+    "pages": 82,
+    "vertices": 481783,
+    "pages_ge_10k_vertices": 19,
+    "median_page_vertices": 3379,
+    "area_on_pages_over_2_wraps_pct": 0.0,
+    "wraps_per_slice_weighted": 0.7998086521886303,
+    "max_wraps_per_slice": 1.621181768022821,
+    "on_surface_weighted": 0.9959297027915057,
+    "cross_wrap_weighted": 0.0012661301872419742,
+    "shear_cos_p95_weighted": 0.5526788151441699
+   }
+  ]
+ },
+ "heldout_tile": {
+  "tile_origin_native": [
+   16384,
+   7168,
+   7168
+  ],
+  "shape": [
+   768,
+   1024,
+   512
+  ],
+  "results": [
+   {
+    "config": "plain M2 + plane",
+    "pages": 26,
+    "vertices": 144265,
+    "pages_ge_10k_vertices": 4,
+    "median_page_vertices": 1970,
+    "area_on_pages_over_2_wraps_pct": 37.806120680691784,
+    "wraps_per_slice_weighted": 2.354559782756501,
+    "max_wraps_per_slice": 5.111818188938423,
+    "on_surface_weighted": 0.7676290160468582,
+    "cross_wrap_weighted": 0.11521158978269158,
+    "shear_cos_p95_weighted": 0.43939093420716635
+   },
+   {
+    "config": "split tol 3 + plane",
+    "pages": 101,
+    "vertices": 291839,
+    "pages_ge_10k_vertices": 9,
+    "median_page_vertices": 762,
+    "area_on_pages_over_2_wraps_pct": 0.0,
+    "wraps_per_slice_weighted": 0.6253402471047496,
+    "max_wraps_per_slice": 1.1820118284221004,
+    "on_surface_weighted": 0.995408427249271,
+    "cross_wrap_weighted": 0.005047303478972995,
+    "shear_cos_p95_weighted": 0.11478871402405168
+   },
+   {
+    "config": "split tol 2 + plane",
+    "pages": 62,
+    "vertices": 264757,
+    "pages_ge_10k_vertices": 9,
+    "median_page_vertices": 1758,
+    "area_on_pages_over_2_wraps_pct": 0.0,
+    "wraps_per_slice_weighted": 0.6250144311490183,
+    "max_wraps_per_slice": 1.173798100572508,
+    "on_surface_weighted": 0.9964986761445401,
+    "cross_wrap_weighted": 0.0011671079518199708,
+    "shear_cos_p95_weighted": 0.10662405637296571
+   },
+   {
+    "config": "split tol 3 (multi-valued) + plane",
+    "pages": 50,
+    "vertices": 210644,
+    "pages_ge_10k_vertices": 7,
+    "median_page_vertices": 1235,
+    "area_on_pages_over_2_wraps_pct": 0.0,
+    "wraps_per_slice_weighted": 0.8289343932008841,
+    "max_wraps_per_slice": 1.6514389991085163,
+    "on_surface_weighted": 0.785738022445453,
+    "cross_wrap_weighted": 0.06699929739275745,
+    "shear_cos_p95_weighted": 0.32763364426066466
+   },
+   {
+    "config": "split tol 3 + sheet",
+    "pages": 101,
+    "vertices": 258979,
+    "pages_ge_10k_vertices": 8,
+    "median_page_vertices": 620,
+    "area_on_pages_over_2_wraps_pct": 0.0,
+    "wraps_per_slice_weighted": 0.609875859625177,
+    "max_wraps_per_slice": 1.1608612305466055,
+    "on_surface_weighted": 0.9973511365786415,
+    "cross_wrap_weighted": 0.0005444456886465698,
+    "shear_cos_p95_weighted": 0.4014717537835214
+   }
+  ]
+ }
+}

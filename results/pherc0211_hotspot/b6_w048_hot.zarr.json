@@ -1,0 +1,37 @@
+{
+ "render": "D:/divesh-github/virtual-unwrap/data/spiral/render/b6_w048_hot.zarr",
+ "shape": [
+  66,
+  1820,
+  2460
+ ],
+ "coarse": [
+  455,
+  615
+ ],
+ "sub": 4,
+ "assigned_pct_of_valid": 92.90965811653957,
+ "patches": [
+  {
+   "id": 1,
+   "coarse_px": 203710,
+   "median_offset": 0.09027099609375
+  }
+ ],
+ "offset_median": 0.10608673095703125,
+ "offset_p5": -5.284675121307373,
+ "offset_p95": 5.48815393447876,
+ "neighbour_jump_gt4_rate": 0.038024841607903495,
+ "params": {
+  "render": "D:/divesh-github/virtual-unwrap/data/spiral/render/b6_w048_hot.zarr",
+  "out": "D:/divesh-github/virtual-unwrap/data/spiral/snap/b6_w048_hot.zarr",
+  "sub": 4,
+  "xy_sigma": 2.0,
+  "search": 12,
+  "max_step": 2.0,
+  "min_prom": 2.0,
+  "min_patch": 2000,
+  "max_dev": 8.0,
+  "smooth": 1.5
+ }
+}

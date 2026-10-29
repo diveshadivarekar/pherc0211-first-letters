@@ -1,0 +1,63 @@
+{
+ "results": {
+  "baseline (plain M2 pages)": {
+   "pages_flattened": 50,
+   "pixels_before_refine": 6123820,
+   "normal": {
+    "pages_read": 50,
+    "pixels_read": 4133739,
+    "mean_prob": 0.018036480391479044,
+    "frac_prob_gt_0.5": 0.008072110987171663,
+    "frac_prob_gt_0.8": 0.005414468596106334,
+    "candidates": 1,
+    "candidate_area_px": 1325,
+    "candidate_mean_prob": 0.6271049976348877
+   },
+   "flip": {
+    "pages_read": 50,
+    "pixels_read": 4133739,
+    "mean_prob": 0.016682345587924897,
+    "frac_prob_gt_0.5": 0.008486263888455465,
+    "frac_prob_gt_0.8": 0.003950902560611592,
+    "candidates": 0,
+    "candidate_area_px": 0,
+    "candidate_mean_prob": 0.0
+   },
+   "pixels_dropped_as_air_pct": 32.4973790869098
+  },
+  "split (tol 3, single-valued)": {
+   "pages_flattened": 82,
+   "pixels_before_refine": 8492974,
+   "normal": {
+    "pages_read": 82,
+    "pixels_read": 6208280,
+    "mean_prob": 0.037176340722665666,
+    "frac_prob_gt_0.5": 0.025051221916537268,
+    "frac_prob_gt_0.8": 0.015475139652206408,
+    "candidates": 1,
+    "candidate_area_px": 36828,
+    "candidate_mean_prob": 0.8832005858421326
+   },
+   "flip": {
+    "pages_read": 82,
+    "pixels_read": 6208280,
+    "mean_prob": 0.019942813565499137,
+    "frac_prob_gt_0.5": 0.007685864683938224,
+    "frac_prob_gt_0.8": 0.0037854284922716115,
+    "candidates": 2,
+    "candidate_area_px": 8044,
+    "candidate_mean_prob": 0.6633177101612091
+   },
+   "pixels_dropped_as_air_pct": 26.900988982186924
+  }
+ },
+ "agreement": {
+  "normal": {
+   "baseline_found_in_split": 0,
+   "of_baseline": 1,
+   "split_found_in_baseline": 0,
+   "of_split": 1
+  }
+ },
+ "radius_voxels": 40.0
+}

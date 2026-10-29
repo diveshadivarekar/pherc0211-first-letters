@@ -1,0 +1,44 @@
+{
+  "surfaces": 50,
+  "contract_findings": 0,
+  "folded_fraction_mean": 0.003808259272656508,
+  "cross_wrap_fraction": 0.09278223931364916,
+  "wraps_crossed_median": 0.5794850014479689,
+  "surfaces_spanning_over_2_wraps": 3,
+  "on_surface_fraction": 0.7522375894121397,
+  "abs_drift_median_voxels": 1.7874405535684776,
+  "ct_centred_fraction": 0.2056544524502453,
+  "ct_contrast": 4.888137857502485,
+  "snap_paired": {
+    "all": {
+      "pages": 50,
+      "on_surface_before": 0.8825059463824012,
+      "on_surface_after": 0.90470470355345,
+      "abs_shift_median_voxels": 0.7062691636035788,
+      "ct_contrast_before": 9.391026720404625,
+      "ct_contrast_after": 9.594323515892029,
+      "pages_ct_contrast_improved": 28,
+      "pages_with_ct": 50
+    },
+    "spanning_2_wraps_or_fewer": {
+      "pages": 47,
+      "on_surface_before": 0.9096115451801915,
+      "on_surface_after": 0.9260323370499522,
+      "abs_shift_median_voxels": 0.6915815189566317,
+      "ct_contrast_before": 9.882746656524374,
+      "ct_contrast_after": 10.032956105597476,
+      "pages_ct_contrast_improved": 25,
+      "pages_with_ct": 47
+    },
+    "spanning_over_2_wraps": {
+      "pages": 3,
+      "on_surface_before": 0.45785156521702136,
+      "on_surface_after": 0.5705717787749129,
+      "abs_shift_median_voxels": 2.1638967274980505,
+      "ct_contrast_before": 1.6874143878618877,
+      "ct_contrast_after": 2.722412943840027,
+      "pages_ct_contrast_improved": 3,
+      "pages_with_ct": 3
+    }
+  }
+}

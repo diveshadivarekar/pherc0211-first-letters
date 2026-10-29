@@ -1,0 +1,14 @@
+{
+ "labels": "w02_20231031143852",
+ "ink_map": "data\\processed\\paris4_multi\\w02\\ink_s8\\tile_ink.h5",
+ "points_scored": 210724,
+ "observed_auc": 0.3620826552645088,
+ "null_n": 14,
+ "null_mean": 0.4663820532951038,
+ "null_sd": 0.2074858143063728,
+ "null_p05": 0.12232428718264128,
+ "null_p95": 0.7831816394011828,
+ "null_min": 0.10227121449978159,
+ "null_max": 0.8708155642638036,
+ "p_two_sided": 0.4666666666666667
+}

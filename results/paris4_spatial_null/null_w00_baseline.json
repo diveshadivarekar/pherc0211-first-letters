@@ -1,0 +1,14 @@
+{
+ "labels": "w00_20231016151002",
+ "ink_map": "data\\processed\\paris4\\baseline\\normal\\tile_ink.h5",
+ "points_scored": 1118969,
+ "observed_auc": 0.6547846357139206,
+ "null_n": 249,
+ "null_mean": 0.48290075009765804,
+ "null_sd": 0.1648498600746389,
+ "null_p05": 0.23467292927465236,
+ "null_p95": 0.7869358661096701,
+ "null_min": 0.07799065749247157,
+ "null_max": 0.9786058887854711,
+ "p_two_sided": 0.352
+}

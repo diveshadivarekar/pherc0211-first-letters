@@ -1,0 +1,126 @@
+{
+ "note": "tuned tile (768x1024x1024 at (16384, 7680, 7680)), single-valued split tol 3; multi-wrap area is not meaningful for pages over ~90 degrees of arc",
+ "tuned_tile": [
+  {
+   "wedge_degrees": 40,
+   "page_builder": "plane",
+   "pages": 82,
+   "vertices": 530731,
+   "largest_page_vertices": 20727,
+   "median_page_vertices": 3755,
+   "pages_ge_10k": 23,
+   "pages_ge_20k": 3,
+   "multi_wrap_area_pct_UNRELIABLE_for_long_pages": 0.0,
+   "on_surface": 0.995,
+   "cross_wrap": 0.004,
+   "shear_cos_p95": 0.14
+  },
+  {
+   "wedge_degrees": 80,
+   "page_builder": "plane",
+   "pages": 65,
+   "vertices": 492436,
+   "largest_page_vertices": 35029,
+   "median_page_vertices": 4720,
+   "pages_ge_10k": 23,
+   "pages_ge_20k": 5,
+   "multi_wrap_area_pct_UNRELIABLE_for_long_pages": 0.0,
+   "on_surface": 0.993,
+   "cross_wrap": 0.004,
+   "shear_cos_p95": 0.22
+  },
+  {
+   "wedge_degrees": 120,
+   "page_builder": "plane",
+   "pages": 56,
+   "vertices": 456502,
+   "largest_page_vertices": 42539,
+   "median_page_vertices": 3556,
+   "pages_ge_10k": 18,
+   "pages_ge_20k": 6,
+   "multi_wrap_area_pct_UNRELIABLE_for_long_pages": 28.7,
+   "on_surface": 0.989,
+   "cross_wrap": 0.004,
+   "shear_cos_p95": 0.33
+  },
+  {
+   "wedge_degrees": 180,
+   "page_builder": "plane",
+   "pages": 52,
+   "vertices": 422742,
+   "largest_page_vertices": 42855,
+   "median_page_vertices": 4905,
+   "pages_ge_10k": 15,
+   "pages_ge_20k": 6,
+   "multi_wrap_area_pct_UNRELIABLE_for_long_pages": 20.5,
+   "on_surface": 0.971,
+   "cross_wrap": 0.016,
+   "shear_cos_p95": 0.39
+  },
+  {
+   "wedge_degrees": 360,
+   "page_builder": "plane",
+   "pages": 45,
+   "vertices": 414536,
+   "largest_page_vertices": 43222,
+   "median_page_vertices": 5722,
+   "pages_ge_10k": 15,
+   "pages_ge_20k": 8,
+   "multi_wrap_area_pct_UNRELIABLE_for_long_pages": 35.3,
+   "on_surface": 0.957,
+   "cross_wrap": 0.028,
+   "shear_cos_p95": 0.42
+  },
+  {
+   "wedge_degrees": 180,
+   "page_builder": "sheet",
+   "pages": 52,
+   "vertices": 473912,
+   "largest_page_vertices": 56812,
+   "median_page_vertices": 3944,
+   "pages_ge_10k": 14,
+   "pages_ge_20k": 6,
+   "multi_wrap_area_pct_UNRELIABLE_for_long_pages": 40.7,
+   "on_surface": 0.995,
+   "cross_wrap": 0.002,
+   "shear_cos_p95": 0.6
+  },
+  {
+   "wedge_degrees": 360,
+   "page_builder": "sheet",
+   "pages": 45,
+   "vertices": 469668,
+   "largest_page_vertices": 57501,
+   "median_page_vertices": 4479,
+   "pages_ge_10k": 14,
+   "pages_ge_20k": 7,
+   "multi_wrap_area_pct_UNRELIABLE_for_long_pages": 51.1,
+   "on_surface": 0.995,
+   "cross_wrap": 0.003,
+   "shear_cos_p95": 0.62
+  }
+ ],
+ "held_out_wedge_check": {
+  "tile": "held-out (768x1024x512 at (16384, 7168, 7168))",
+  "wedge_40": {
+   "pages": 101,
+   "vertices": 291839,
+   "largest_page_vertices": 21378,
+   "pages_ge_20k": 1,
+   "pages_ge_10k": 9,
+   "on_surface": 0.995,
+   "cross_wrap": 0.005,
+   "shear_cos_p95": 0.11
+  },
+  "wedge_80": {
+   "pages": 86,
+   "vertices": 285158,
+   "largest_page_vertices": 28232,
+   "pages_ge_20k": 2,
+   "pages_ge_10k": 9,
+   "on_surface": 0.993,
+   "cross_wrap": 0.008,
+   "shear_cos_p95": 0.13
+  }
+ }
+}

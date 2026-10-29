@@ -1,0 +1,24 @@
+# Default synthetic phantom used for Phase 1 (M1) development and testing.
+# Small enough to run on any CUDA-less machine; a full-scale phantom would
+# use a much larger shape and be generated on the cluster.
+
+output_path: data/phantoms/phantom_001.h5
+seed: 0
+
+# Volume shape: (depth, height, width) voxels.
+shape: [64, 128, 128]
+chunk_depth: 32
+
+# Ground-truth rolled-scroll geometry. n_layers is deliberately modest
+# relative to the canvas so each fused layer stays several voxels wide with
+# real background gaps between sheets — see generate_phantom.py for why
+# that separation matters for the M1 correction algorithms.
+n_layers: 8
+substrate_density: 0.3
+ink_density: 0.9
+
+# Synthetic acquisition artifacts layered on top of the ground truth.
+beam_hardening_strength: 0.25
+ring_artifact_strength: 0.08
+n_rings: 6
+noise_sigma: 0.02

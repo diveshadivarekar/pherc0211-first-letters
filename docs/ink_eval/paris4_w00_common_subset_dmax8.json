@@ -1,0 +1,91 @@
+{
+ "tile_origin": [
+  62080,
+  17280,
+  18816
+ ],
+ "tile_shape": [
+  1536,
+  1408,
+  768
+ ],
+ "dmax": 8.0,
+ "label_pixels": 3012458,
+ "ink_fraction": 0.2920611673258183,
+ "results": {
+  "gold geometry + refine, normal": {
+   "label_points": 3012458,
+   "covered": 1827044,
+   "coverage": 0.6064960905679017,
+   "ink_prevalence": 0.3664848794008245,
+   "auc": 0.7208605885577583,
+   "f0.5": 0.6354613157184485,
+   "precision": 0.6826046808745877,
+   "recall": 0.4979106430261177,
+   "threshold": 0.055,
+   "f0.5_all_ink": 0.41965664547441883
+  },
+  "baseline pages, normal depth": {
+   "label_points": 3012458,
+   "covered": 1118969,
+   "coverage": 0.3714471703837863,
+   "ink_prevalence": 0.4034151080146099,
+   "auc": 0.6547846357139206,
+   "f0.5": 0.5395214171339705,
+   "precision": 0.5382337297339891,
+   "recall": 0.5447343761422568,
+   "threshold": 0.03,
+   "f0.5_all_ink": 0.45807072251757314
+  },
+  "split pages, normal depth": {
+   "label_points": 3012458,
+   "covered": 1120731,
+   "coverage": 0.37203207480403044,
+   "ink_prevalence": 0.403856946939096,
+   "auc": 0.6526792180867054,
+   "f0.5": 0.5383644520773393,
+   "precision": 0.5376287223327899,
+   "recall": 0.541327618395325,
+   "threshold": 0.03,
+   "f0.5_all_ink": 0.45852641423763446
+  }
+ },
+ "common_subset": {
+  "gold geometry + refine, normal": {
+   "label_points": 3012458,
+   "covered": 1070004,
+   "coverage": 0.35519300186093883,
+   "ink_prevalence": 0.402702232888849,
+   "auc": 0.7289169475329903,
+   "f0.5": 0.6568959539566522,
+   "precision": 0.6948593308305538,
+   "recall": 0.5390851092962754,
+   "threshold": 0.06,
+   "f0.5_all_ink": 0.4573353040782575
+  },
+  "baseline pages, normal depth": {
+   "label_points": 3012458,
+   "covered": 1070004,
+   "coverage": 0.35519300186093883,
+   "ink_prevalence": 0.402702232888849,
+   "auc": 0.6539579095285795,
+   "f0.5": 0.53974004892401,
+   "precision": 0.5359183180063934,
+   "recall": 0.5555880462202913,
+   "threshold": 0.03,
+   "f0.5_all_ink": 0.4573353040782575
+  },
+  "split pages, normal depth": {
+   "label_points": 3012458,
+   "covered": 1070004,
+   "coverage": 0.35519300186093883,
+   "ink_prevalence": 0.402702232888849,
+   "auc": 0.6524960042560498,
+   "f0.5": 0.5391756195306397,
+   "precision": 0.535907984102908,
+   "recall": 0.5526546033470027,
+   "threshold": 0.03,
+   "f0.5_all_ink": 0.4573353040782575
+  }
+ }
+}

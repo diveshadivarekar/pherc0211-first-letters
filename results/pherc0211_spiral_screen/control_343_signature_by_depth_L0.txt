@@ -1,0 +1,11 @@
+depth direction  coarse_std  band_std  coherence
+  -4  forward     18.29     4.28    0.282
+  -4  reverse     28.86     5.58    0.345
+  +0  forward     18.64     4.10    0.277
+  +0  reverse     30.71     5.89    0.359
+  +1  forward     19.42     4.12    0.276
+  +1  reverse     30.82     5.86    0.358
+  +4  forward     20.44     4.29    0.286
+  +4  reverse     27.18     5.45    0.331
+  +8  forward     18.99     4.01    0.267
+  +8  reverse     16.45     3.82    0.257

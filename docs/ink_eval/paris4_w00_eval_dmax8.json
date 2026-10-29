@@ -1,0 +1,113 @@
+{
+ "tile_origin": [
+  62080,
+  17280,
+  18816
+ ],
+ "tile_shape": [
+  1536,
+  1408,
+  768
+ ],
+ "dmax": 8.0,
+ "label_pixels": 3012458,
+ "ink_fraction": 0.2920611673258183,
+ "results": {
+  "gold geometry, normal": {
+   "label_points": 3012458,
+   "covered": 3012458,
+   "coverage": 1.0,
+   "ink_prevalence": 0.2920611673258183,
+   "auc": 0.5565789493909222,
+   "f0.5": 0.35649971741296965,
+   "precision": 0.3265125486763779,
+   "recall": 0.5635139835103009,
+   "threshold": 0.23,
+   "f0.5_all_ink": 0.3402341624918966
+  },
+  "gold geometry, flipped": {
+   "label_points": 3012458,
+   "covered": 3012458,
+   "coverage": 1.0,
+   "ink_prevalence": 0.2920611673258183,
+   "auc": 0.4945794920999012,
+   "f0.5": 0.3402341624918966,
+   "precision": 0.2920611673258183,
+   "recall": 1.0,
+   "threshold": 0.0,
+   "f0.5_all_ink": 0.3402341624918966
+  },
+  "gold geometry + refine, normal": {
+   "label_points": 3012458,
+   "covered": 1827044,
+   "coverage": 0.6064960905679017,
+   "ink_prevalence": 0.3664848794008245,
+   "auc": 0.7208605885577583,
+   "f0.5": 0.6354613157184485,
+   "precision": 0.6826046808745877,
+   "recall": 0.4979106430261177,
+   "threshold": 0.055,
+   "f0.5_all_ink": 0.41965664547441883
+  },
+  "gold geometry + refine, flipped": {
+   "label_points": 3012458,
+   "covered": 1827044,
+   "coverage": 0.6064960905679017,
+   "ink_prevalence": 0.3664848794008245,
+   "auc": 0.5403380427370608,
+   "f0.5": 0.41965664547441883,
+   "precision": 0.3664848794008245,
+   "recall": 1.0,
+   "threshold": 0.0,
+   "f0.5_all_ink": 0.41965664547441883
+  },
+  "baseline pages, normal depth": {
+   "label_points": 3012458,
+   "covered": 1118969,
+   "coverage": 0.3714471703837863,
+   "ink_prevalence": 0.4034151080146099,
+   "auc": 0.6547846357139206,
+   "f0.5": 0.5395214171339705,
+   "precision": 0.5382337297339891,
+   "recall": 0.5447343761422568,
+   "threshold": 0.03,
+   "f0.5_all_ink": 0.45807072251757314
+  },
+  "baseline pages, flipped depth": {
+   "label_points": 3012458,
+   "covered": 1118969,
+   "coverage": 0.3714471703837863,
+   "ink_prevalence": 0.4034151080146099,
+   "auc": 0.523262254339969,
+   "f0.5": 0.45807072251757314,
+   "precision": 0.4034151080146099,
+   "recall": 1.0,
+   "threshold": 0.0,
+   "f0.5_all_ink": 0.45807072251757314
+  },
+  "split pages, normal depth": {
+   "label_points": 3012458,
+   "covered": 1120731,
+   "coverage": 0.37203207480403044,
+   "ink_prevalence": 0.403856946939096,
+   "auc": 0.6526792180867054,
+   "f0.5": 0.5383644520773393,
+   "precision": 0.5376287223327899,
+   "recall": 0.541327618395325,
+   "threshold": 0.03,
+   "f0.5_all_ink": 0.45852641423763446
+  },
+  "split pages, flipped depth": {
+   "label_points": 3012458,
+   "covered": 1120731,
+   "coverage": 0.37203207480403044,
+   "ink_prevalence": 0.403856946939096,
+   "auc": 0.5207200204676226,
+   "f0.5": 0.45852641423763446,
+   "precision": 0.403856946939096,
+   "recall": 1.0,
+   "threshold": 0.0,
+   "f0.5_all_ink": 0.45852641423763446
+  }
+ }
+}

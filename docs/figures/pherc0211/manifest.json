@@ -1,0 +1,210 @@
+{
+ "scroll": "PHerc. 0211",
+ "scan_id": "20250821151803",
+ "voxel_um": 9.362,
+ "kev": 113,
+ "git_commit": "618449121346b02e65dac32eeee3957ebf870f1c",
+ "status": "feasibility figures; no ink found; not qualifying submission evidence",
+ "figures": [
+  {
+   "file": "pherc0211_overview_L3.png",
+   "source": "volumes/*.zarr level 3",
+   "z_level3": 1213,
+   "bar_mm": 10
+  },
+  {
+   "file": "pherc0211_A_surface_overlay.png",
+   "source": "native_crop_A.h5 + surface_pred_crop_A.h5",
+   "z_in_crop": 128,
+   "bar_mm": 1
+  },
+  {
+   "file": "pherc0211_A_flattened_pages.png",
+   "source": "data/processed/pherc0211_split/pherc0211_A/pherc0211_A_flattened.h5",
+   "pages": [
+    {
+     "layer": "layer_1",
+     "page_shape": [
+      321,
+      530
+     ],
+     "area_mm2": 14.9,
+     "valid_fraction": 0.61,
+     "distortion_after": 0.022
+    },
+    {
+     "layer": "layer_6",
+     "page_shape": [
+      168,
+      334
+     ],
+     "area_mm2": 4.9,
+     "valid_fraction": 0.37,
+     "distortion_after": 0.013
+    },
+    {
+     "layer": "layer_4",
+     "page_shape": [
+      180,
+      283
+     ],
+     "area_mm2": 4.5,
+     "valid_fraction": 0.55,
+     "distortion_after": 0.0255
+    },
+    {
+     "layer": "layer_10",
+     "page_shape": [
+      197,
+      253
+     ],
+     "area_mm2": 4.4,
+     "valid_fraction": 0.34,
+     "distortion_after": 0.0123
+    }
+   ],
+   "bar_mm": 1
+  },
+  {
+   "file": "pherc0211_B_flattened_pages.png",
+   "source": "data/processed/pherc0211_split/pherc0211_B/pherc0211_B_flattened.h5",
+   "pages": [
+    {
+     "layer": "layer_5",
+     "page_shape": [
+      320,
+      825
+     ],
+     "area_mm2": 23.1,
+     "valid_fraction": 0.56,
+     "distortion_after": 0.0172
+    },
+    {
+     "layer": "layer_7",
+     "page_shape": [
+      308,
+      825
+     ],
+     "area_mm2": 22.3,
+     "valid_fraction": 0.51,
+     "distortion_after": 0.0135
+    },
+    {
+     "layer": "layer_3",
+     "page_shape": [
+      297,
+      810
+     ],
+     "area_mm2": 21.1,
+     "valid_fraction": 0.74,
+     "distortion_after": 0.0132
+    },
+    {
+     "layer": "layer_4",
+     "page_shape": [
+      302,
+      761
+     ],
+     "area_mm2": 20.1,
+     "valid_fraction": 0.73,
+     "distortion_after": 0.0153
+    }
+   ],
+   "bar_mm": 1
+  },
+  {
+   "file": "pherc0211_C_flattened_pages.png",
+   "source": "data/processed/pherc0211_split/pherc0211_C/pherc0211_C_flattened.h5",
+   "pages": [
+    {
+     "layer": "layer_1",
+     "page_shape": [
+      269,
+      789
+     ],
+     "area_mm2": 18.6,
+     "valid_fraction": 0.81,
+     "distortion_after": 0.0042
+    },
+    {
+     "layer": "layer_2",
+     "page_shape": [
+      267,
+      584
+     ],
+     "area_mm2": 13.7,
+     "valid_fraction": 0.94,
+     "distortion_after": 0.0081
+    },
+    {
+     "layer": "layer_3",
+     "page_shape": [
+      262,
+      589
+     ],
+     "area_mm2": 13.5,
+     "valid_fraction": 0.9,
+     "distortion_after": 0.0049
+    },
+    {
+     "layer": "layer_7",
+     "page_shape": [
+      275,
+      546
+     ],
+     "area_mm2": 13.2,
+     "valid_fraction": 0.81,
+     "distortion_after": 0.014
+    }
+   ],
+   "bar_mm": 1
+  },
+  {
+   "file": "pherc0211_D_flattened_pages.png",
+   "source": "data/processed/pherc0211_split/pherc0211_D/pherc0211_D_flattened.h5",
+   "pages": [
+    {
+     "layer": "layer_3",
+     "page_shape": [
+      292,
+      365
+     ],
+     "area_mm2": 9.3,
+     "valid_fraction": 0.55,
+     "distortion_after": 0.0182
+    },
+    {
+     "layer": "layer_1",
+     "page_shape": [
+      268,
+      331
+     ],
+     "area_mm2": 7.8,
+     "valid_fraction": 0.75,
+     "distortion_after": 0.0183
+    },
+    {
+     "layer": "layer_2",
+     "page_shape": [
+      285,
+      310
+     ],
+     "area_mm2": 7.7,
+     "valid_fraction": 0.54,
+     "distortion_after": 0.0303
+    },
+    {
+     "layer": "layer_10",
+     "page_shape": [
+      252,
+      312
+     ],
+     "area_mm2": 6.9,
+     "valid_fraction": 0.46,
+     "distortion_after": 0.0102
+    }
+   ],
+   "bar_mm": 1
+  }
+ ]
+}
